@@ -44,5 +44,5 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
 	$(LOCAL_PATH)/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
 	$(LOCAL_PATH)/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-	$(LOCAL_PATH)/proprietary/etc/firmware/BCM4345C0_003.001.025.0069.0000_PPLUS_NA_MaxTxPwr_ORC.hcd:system/etc/firmware/BCM4345C0_003.001.025.0069.0000_PPLUS_NA_MaxTxPwr_ORC.hcd \
+	$(LOCAL_PATH)/proprietary/etc/firmware/BCM4345C0_003.001.025.0104.0163.hcd:system/etc/firmware/BCM4345C0_003.001.025.0104.0163.hcd \
 	$(LOCAL_PATH)/proprietary/etc/firmware/BCM20795A2_001.003.025.0005.0049_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A2_001.003.025.0005.0049_Generic_I2C_NCD_Signed_configdata.ncd 
