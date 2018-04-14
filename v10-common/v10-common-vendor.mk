@@ -333,8 +333,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
-    vendor/lge/v10-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/libFastFocus.so:system/vendor/lib/libFastFocus.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/libfn.fastfocus.so:system/vendor/lib/libfn.fastfocus.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
