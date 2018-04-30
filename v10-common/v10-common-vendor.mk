@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/firmware/image/keymaster.b03:firmware/image/keymaster.b03 \
     vendor/lge/v10-common/proprietary/firmware/image/keymaster.mdt:firmware/image/keymaster.mdt \
     vendor/lge/v10-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/v10-common/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
+    vendor/lge/v10-common/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.vendor.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/v10-common/proprietary/lib/hw/lgkm.msm8992.so:system/lib/hw/lgkm.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
