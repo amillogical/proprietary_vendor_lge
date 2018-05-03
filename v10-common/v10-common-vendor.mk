@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/bin/qmi-framework-tests/check_system_health:system/bin/qmi-framework-tests/check_system_health \
     vendor/lge/v10-common/proprietary/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:system/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/lge/v10-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/lge/v10-common/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/lge/v10-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/lge/v10-common/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/v10-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
@@ -52,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/firmware/image/keymaster.b03:firmware/image/keymaster.b03 \
     vendor/lge/v10-common/proprietary/firmware/image/keymaster.mdt:firmware/image/keymaster.mdt \
     vendor/lge/v10-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/lge/v10-common/proprietary/lib/hw/fingerprint.msm8992.so:system/lib/hw/fingerprint.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/lgkm.default.so:system/lib/hw/lgkm.default.so \
     vendor/lge/v10-common/proprietary/lib/hw/lgkm.msm8992.so:system/lib/hw/lgkm.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
@@ -75,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/lge/v10-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/lge/v10-common/proprietary/lib64/libfpfactory_jni.so:system/lib64/libfpfactory_jni.so \
+    vendor/lge/v10-common/proprietary/lib64/hw/fingerprint.msm8992.so:system/lib64/hw/fingerprint.msm8992.so \
     vendor/lge/v10-common/proprietary/lib64/hw/lgkm.default.so:system/lib64/hw/lgkm.default.so \
     vendor/lge/v10-common/proprietary/lib64/hw/lgkm.msm8992.so:system/lib64/hw/lgkm.msm8992.so \
     vendor/lge/v10-common/proprietary/lib64/hw/sensors.msm8992.so:system/lib64/hw/sensors.msm8992.so \
@@ -803,7 +806,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
 
 PRODUCT_PACKAGES += \
-    fingerprint.msm8992 \
     libcir_driver \
     libloc_api_v02 \
     libloc_ds_api \
