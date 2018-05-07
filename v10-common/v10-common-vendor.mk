@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/lib/hw/sensors.msm8992.so:system/lib/hw/sensors.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/wbc_hal.default.so:system/lib/hw/wbc_hal.default.so \
     vendor/lge/v10-common/proprietary/lib/hw/sensors.hal.tof.so:system/lib/hw/sensors.hal.tof.so \
-    vendor/lge/v10-common/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/libqcomvoiceprocessingdescriptors.so \
+    vendor/lge/v10-common/proprietary/lib/soundfx/libqcomvoiceprocessingdescriptors.so:system/lib/soundfx/libqcomvoiceprocessingdescriptors.so \
     vendor/lge/v10-common/proprietary/lib/libVDBase.so:system/lib/libVDBase.so \
     vendor/lge/v10-common/proprietary/lib/libVDLowLightAPI.so:system/lib/libVDLowLightAPI.so \
     vendor/lge/v10-common/proprietary/lib/libalhdri.so:system/lib/libalhdri.so \
